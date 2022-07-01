@@ -62,6 +62,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'altercation/vim-colors-solarized'
 Plug 'ryanoasis/vim-devicons'
 Plug 'fatih/vim-go'
+Plug 'wuelnerdotexe/vim-enfocado'
 call plug#end()
 
 colorscheme duskfox
