@@ -26,9 +26,11 @@ map <leader>l :set number<CR>
 map <leader>r :Rg<CR>
 map <leader>t :term<CR>
 map <leader><enter> :w<CR>
-map <leader>j :Explore<CR>
+map <leader>j :NERDTree<CR>
+map <leader>n :NERDTreeCWD<CR>
 map <leader>b :Buffers<CR>
 map <leader>J :Sexplore<CR>
+map <leader>w :Windows<CR>
 
 " Plugins
 call plug#begin()
@@ -52,7 +54,14 @@ Plug 'airblade/vim-gitgutter'
 Plug 'mattn/emmet-vim'
 Plug 'kyoh86/vim-ripgrep'
 Plug 'nelsyeung/twig.vim'
-Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
+"Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/syntastic'
+Plug 'mileszs/ack.vim'
+Plug 'scrooloose/nerdcommenter'
+Plug 'altercation/vim-colors-solarized'
+Plug 'ryanoasis/vim-devicons'
+Plug 'fatih/vim-go'
 call plug#end()
 
 colorscheme duskfox
