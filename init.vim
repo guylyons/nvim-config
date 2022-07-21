@@ -27,8 +27,7 @@ map <leader>l :set number<CR>
 map <leader>r :Rg<CR>
 map <leader>t :term<CR>
 map <leader><enter> :w<CR>
-map <leader>j :NERDTree<CR>
-map <leader>n :NERDTreeCWD<CR>
+map <leader>j :NERDTreeFind<CR>
 map <leader>b :Buffers<CR>
 map <leader>J :Sexplore<CR>
 map <leader>w :Windows<CR>
