@@ -49,6 +49,8 @@ Plug 'kyoh86/vim-ripgrep'
 Plug 'nelsyeung/twig.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/syntastic'
+" A close enough solution to what occur
+" provided in Emacs
 Plug 'mileszs/ack.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'altercation/vim-colors-solarized'
