@@ -34,21 +34,13 @@ map <leader>w :Windows<CR>
 
 " Plugins
 call plug#begin()
-
 Plug 'tpope/vim-fugitive'
 Plug 'EdenEast/nightfox.nvim' " Vim-Plug
 Plug 'honza/vim-snippets'
 Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
-" 9000+ Snippets
 Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 " lua & third party sources -- See https://github.com/ms-jpq/coq.thirdparty
-" Need to **configure separately**
 Plug 'ms-jpq/coq.thirdparty', {'branch': '3p'}
-" - shell repl
-" - nvim lua api
-" - scientific calculator
-" - comment banner
-" - etc
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-gitgutter'
