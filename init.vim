@@ -62,4 +62,4 @@ Plug 'glepnir/lspsaga.nvim', { 'branch': 'main' }
 call plug#end()
 
 " Set default theme
-colorscheme duskfox
+" colorscheme duskfox
