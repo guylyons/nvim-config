@@ -22,7 +22,7 @@ let g:coq_settings = { 'auto_start': v:true }
 let mapleader = " " " map leader to Space
 
 " Custom Keybindings
-map <leader>f :Files<CR>
+map <leader>p :Files<CR>
 map <leader>l :set number<CR>
 map <leader>r :Rg<CR>
 map <leader>t :term<CR>
@@ -58,7 +58,8 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'fatih/vim-go'
 Plug 'wuelnerdotexe/vim-enfocado'
 Plug 'neovim/nvim-lspconfig'
-Plug 'glepnir/lspsaga.nvim', { 'branch': 'main' }
+Plug 'justinmk/vim-sneak'
+" Plug 'glepnir/lspsaga.nvim', { 'branch': 'main' }
 call plug#end()
 
 " Set default theme
