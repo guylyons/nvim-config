@@ -1,3 +1,12 @@
+set encoding=utf-8
+
+" powerline symbols
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
+let g:airline_powerline_fonts = 1
+
 " Keybindings
 imap jj <Esc>
 map <C-p> :FZF<CR>
@@ -60,6 +69,13 @@ Plug 'wuelnerdotexe/vim-enfocado'
 Plug 'neovim/nvim-lspconfig'
 Plug 'justinmk/vim-sneak'
 Plug 'mfussenegger/nvim-dap'
+
+Plug 'vim-airline/vim-airline'
+Plug 'joonty/vdebug'
+
+Plug 'echasnovski/mini.nvim', { 'branch': 'stable' }
+Plug 'williamboman/mason.nvim'
+
 " Plug 'glepnir/lspsaga.nvim', { 'branch': 'main' }
 call plug#end()
 
