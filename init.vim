@@ -72,4 +72,4 @@ Plug 'williamboman/mason.nvim'
 call plug#end()
 
 " Set default theme
-" colorscheme duskfox
+colorscheme duskfox
