@@ -70,7 +70,6 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'justinmk/vim-sneak'
 Plug 'mfussenegger/nvim-dap'
 
-Plug 'vim-airline/vim-airline'
 Plug 'joonty/vdebug'
 
 Plug 'echasnovski/mini.nvim', { 'branch': 'stable' }
