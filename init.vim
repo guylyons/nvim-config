@@ -12,6 +12,7 @@ imap jj <Esc>
 map <C-p> :FZF<CR>
 
 " Configuration
+set relativenumber
 set nocompatible            " disable compatibility to old-time vi
 set showmatch               " show matching brackets.
 set ignorecase              " case insensitive matching
@@ -32,7 +33,6 @@ let mapleader = " " " map leader to Space
 
 " Custom Keybindings
 map <leader>p :Files<CR>
-map <leader>l :set number<CR>
 map <leader>r :Rg<CR>
 map <leader>t :term<CR>
 map <leader><enter> :w<CR>
