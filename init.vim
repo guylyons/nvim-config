@@ -27,6 +27,8 @@ let mapleader = " " " map leader to Space
 " Custom Keybindings
 map <leader>f :Files<CR>
 map <leader>r :Rg<CR>
+map <leader>h :History<CR>
+map <leader>g :Git<CR>
 map <leader>t :term<CR>
 map <leader><enter> :w<CR>
 map <leader>j :NERDTreeToggle<CR>
