@@ -25,7 +25,7 @@ let g:coq_settings = { 'auto_start': v:true }
 let mapleader = " " " map leader to Space
 
 " Custom Keybindings
-map <leader>p :Files<CR>
+map <leader>f :Files<CR>
 map <leader>r :Rg<CR>
 map <leader>t :term<CR>
 map <leader><enter> :w<CR>
