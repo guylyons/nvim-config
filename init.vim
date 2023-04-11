@@ -19,8 +19,6 @@ set shiftwidth=4            " width for autoindents
 set softtabstop=4           " see multiple spaces as tabstops so <BS> does the right thing
 filetype plugin indent on   " allows auto-indenting depending on file type
 
-let g:coq_settings = { 'auto_start': v:true }
-
 " Leader key
 let mapleader = " " " map leader to Space
 
@@ -41,10 +39,7 @@ call plug#begin()
 Plug 'tpope/vim-fugitive'
 Plug 'EdenEast/nightfox.nvim' " Vim-Plug
 Plug 'honza/vim-snippets'
-Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
-Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 " lua & third party sources -- See https://github.com/ms-jpq/coq.thirdparty
-Plug 'ms-jpq/coq.thirdparty', {'branch': '3p'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-gitgutter'
