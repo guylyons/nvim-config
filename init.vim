@@ -65,6 +65,9 @@ Plug 'joonty/vdebug'
 Plug 'echasnovski/mini.nvim', { 'branch': 'stable' }
 Plug 'williamboman/mason.nvim'
 
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.2' }
+
 " Plug 'glepnir/lspsaga.nvim', { 'branch': 'main' }
 call plug#end()
 
