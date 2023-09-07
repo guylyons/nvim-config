@@ -1,5 +1,8 @@
 set encoding=utf-8
 
+" Lua Plugins
+lua require('plugins')
+
 " Keybindings
 imap jj <Esc>
 map <C-p> :FZF<CR>
