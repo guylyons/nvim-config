@@ -23,7 +23,7 @@ filetype plugin indent on   " allows auto-indenting depending on file type
 let mapleader = " " " map leader to Space
 
 " Custom Keybindings
-map <leader>f :Files<CR>
+map <leader>f :Telescope find_files<CR>
 map <leader>r :Rg<CR>
 map <leader>h :History<CR>
 map <leader>g :Git<CR>
