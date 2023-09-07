@@ -62,16 +62,11 @@ Plug 'wuelnerdotexe/vim-enfocado'
 Plug 'neovim/nvim-lspconfig'
 Plug 'justinmk/vim-sneak'
 Plug 'mfussenegger/nvim-dap'
-
-Plug 'joonty/vdebug'
-
+Plug 'neovim/nvim-lsp'
 Plug 'echasnovski/mini.nvim', { 'branch': 'stable' }
 Plug 'williamboman/mason.nvim'
-
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.2' }
-
-" Plug 'glepnir/lspsaga.nvim', { 'branch': 'main' }
 call plug#end()
 
 " Set default theme
