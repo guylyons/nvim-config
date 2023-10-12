@@ -70,4 +70,4 @@ Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.2' }
 call plug#end()
 
 " Set default theme
-colorscheme duskfox
+" colorscheme duskfox
